@@ -22,9 +22,12 @@ data = {
 
 
 def bird_list(data)
+  return_array = []
   data.each do |key, value|
+    
     binding.pry
   end
+  return_array
 end
 
 
