@@ -24,7 +24,7 @@ def bird_list(data)
   data.collect {|key, value| value.values}.flatten.uniq
 end
 
-def properties_of(bird)
+def properties_of(data, bird)
   
 end
 
