@@ -22,11 +22,10 @@ data = {
 
 
 def bird_list(data)
-  return_array = []
-  data.each do |key, value|
-    return_array << value.values
-  end
-  return_array.flatten.uniq
+  #return_array = []
+  data.each {|key, value| value.values}.flatten.uniq
+  
+  #return_array.flatten.uniq
 end
 
 
