@@ -26,7 +26,7 @@ end
 
 def properties_of(data, bird)
   return_hash = {}
-  
+    binding.pry
   return_hash
 end
 
