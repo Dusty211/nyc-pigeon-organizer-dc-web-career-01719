@@ -24,7 +24,6 @@ def bird_list(data)
   data.collect {|key, value| value.values}.flatten.uniq
 end
 
-
 def nyc_pigeon_organizer(data)
   
 end
