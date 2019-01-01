@@ -23,7 +23,7 @@ data = {
 
 def bird_list(data)
   #return_array = []
-  data.each {|key, value| value.values}.flatten.uniq
+  data.collect {|key, value| value.values}.flatten.uniq
   
   #return_array.flatten.uniq
 end
