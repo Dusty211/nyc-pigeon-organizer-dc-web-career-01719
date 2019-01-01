@@ -24,7 +24,7 @@ data = {
 def bird_list(data)
   return_array = []
   data.each do |key, value|
-    
+    return_array << value.values
     binding.pry
   end
   return_array
