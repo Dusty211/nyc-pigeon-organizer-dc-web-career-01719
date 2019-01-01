@@ -25,7 +25,9 @@ def bird_list(data)
 end
 
 def properties_of(data, bird)
+  return_hash = {}
   
+  return_hash
 end
 
 
