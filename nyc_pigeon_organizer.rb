@@ -27,7 +27,7 @@ def bird_list(data)
     return_array << value.values
     #binding.pry
   end
-  return_array.flatten.unique
+  return_array = return_array.flatten.uniq
   return_array
 end
 
