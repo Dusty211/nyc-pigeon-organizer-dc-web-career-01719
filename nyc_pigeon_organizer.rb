@@ -1,6 +1,14 @@
 
 require 'pry'
 
+
+
+
+
+
+
+
+
 def bird_list(data)
   data.each do |key, value|
     binding.pry
