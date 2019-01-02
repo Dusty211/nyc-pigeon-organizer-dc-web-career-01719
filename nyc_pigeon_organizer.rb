@@ -29,6 +29,7 @@ def properties_of(data, bird)
   data.each do |key, value| 
     return_hash[bird][key] = []
     value.each do |subkey, subkey_value|
+      
       binding.pry
     end
   end
