@@ -39,7 +39,7 @@ def nyc_pigeon_organizer(data)
   
 end
 
-bird = "Theo"
-binding.pry
-properties_of(data, bird)
+#bird = "Theo"
+#binding.pry
+#properties_of(data, bird)
 
