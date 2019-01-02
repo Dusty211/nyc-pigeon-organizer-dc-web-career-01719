@@ -42,7 +42,7 @@ def properties_of(data, bird)
   data.each do |key, value| 
     return_hash[key] = []
     value.each do |subkey, subkey_value|
-      return_hash[key] << subkey if subkey_value.include?(bird)
+      return_hash[key] << subkey.to_s if subkey_value.include?(bird)
     end
   end
   return_hash
