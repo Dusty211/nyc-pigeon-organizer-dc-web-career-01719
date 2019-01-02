@@ -24,12 +24,25 @@ def bird_list(data)
   data.collect {|key, value| value.values}.flatten.uniq
 end
 
+=begin
 def properties_of(data, bird)
   return_hash = {bird => {}}
   data.each do |key, value| 
     return_hash[bird][key] = []
     value.each do |subkey, subkey_value|
       return_hash[bird][key] << subkey if subkey_value.include?(bird)
+    end
+  end
+  return_hash
+end
+=end
+
+def properties_of(data, bird)
+  return_hash = {}
+  data.each do |key, value| 
+    return_hash[key] = []
+    value.each do |subkey, subkey_value|
+      return_hash[key] << subkey if subkey_value.include?(bird)
     end
   end
   return_hash
