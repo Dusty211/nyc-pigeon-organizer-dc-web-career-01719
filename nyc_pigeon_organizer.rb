@@ -36,7 +36,11 @@ def properties_of(data, bird)
 end
 
 def nyc_pigeon_organizer(data)
-  
+  return_hash = {}
+  bird_list(data).each do |bird|
+    
+  end
+  return_hash
 end
 
 #bird = "Theo"
