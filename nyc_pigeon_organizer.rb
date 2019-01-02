@@ -29,8 +29,8 @@ def properties_of(data, bird)
   data.each do |key, value| 
     return_hash[bird][key] = []
     value.each do |subkey, subkey_value|
-      
-      binding.pry
+      return_hash[bird][key] << subkey if subkey_value.include?(bird)
+      #binding.pry
     end
   end
   #data.keys.each {|key| return_hash[bird][key] = []}
