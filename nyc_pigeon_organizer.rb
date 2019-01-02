@@ -38,7 +38,7 @@ end
 def nyc_pigeon_organizer(data)
   return_hash = {}
   bird_list(data).each do |bird|
-    
+    return_hash[bird] = properties_of(data, bird)
   end
   return_hash
 end
