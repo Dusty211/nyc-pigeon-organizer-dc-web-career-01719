@@ -30,16 +30,10 @@ def properties_of(data, bird)
     return_hash[bird][key] = []
     value.each do |subkey, subkey_value|
       return_hash[bird][key] << subkey if subkey_value.include?(bird)
-      #binding.pry
     end
   end
-  #data.keys.each {|key| return_hash[bird][key] = []}
-  #data.each do |key, value|
-    #binding.pry
-  #end
   return_hash
 end
-
 
 def nyc_pigeon_organizer(data)
   
