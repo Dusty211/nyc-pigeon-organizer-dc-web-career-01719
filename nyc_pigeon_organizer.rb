@@ -28,12 +28,12 @@ def properties_of(data, bird)
   return_hash = {bird => {}}
   data.each do |key, value| 
     return_hash[bird][key] = []
+    binding.pry
   end
   #data.keys.each {|key| return_hash[bird][key] = []}
   #data.each do |key, value|
     #binding.pry
   #end
-  binding.pry
   return_hash
 end
 
