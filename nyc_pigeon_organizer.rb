@@ -46,5 +46,6 @@ def nyc_pigeon_organizer(data)
 end
 
 bird = "Theo"
+
 properties_of(data, bird)
 
